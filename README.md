@@ -28,3 +28,5 @@ F: 0006:031e DUL secure transport layer: sslv3 alert handshake failure
 ```
 
 The full logs can be found here: [Stretch](./stretch.log) and [Buster](./buster.log)
+
+You can test this yourself by running either ```./buster.sh``` or ```./stretch.sh```. Update ```./run.sh``` to fiddle with the ```echoscu``` parameters between runs.
