@@ -1,0 +1,311 @@
+Get:1 http://security.debian.org/debian-security stretch/updates InRelease [53.0 kB]
+Ign:2 http://deb.debian.org/debian stretch InRelease
+Get:3 http://deb.debian.org/debian stretch-updates InRelease [93.6 kB]
+Get:4 http://security.debian.org/debian-security stretch/updates/main amd64 Packages [660 kB]
+Get:5 http://deb.debian.org/debian stretch Release [118 kB]
+Get:6 http://deb.debian.org/debian stretch-updates/main amd64 Packages [2596 B]
+Get:7 http://deb.debian.org/debian stretch Release.gpg [2410 B]
+Get:8 http://deb.debian.org/debian stretch/main amd64 Packages [7080 kB]
+Fetched 8009 kB in 3s (2645 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libcharls1 libdcmtk8 libicu57 libjbig0 libjpeg62-turbo libpng16-16
+  libssl1.0.2 libtiff5 libwrap0 libxml2 sgml-base tcpd xml-core
+Suggested packages:
+  sgml-base-doc debhelper
+The following NEW packages will be installed:
+  dcmtk libcharls1 libdcmtk8 libicu57 libjbig0 libjpeg62-turbo libpng16-16
+  libssl1.0.2 libtiff5 libwrap0 libxml2 sgml-base tcpd xml-core
+0 upgraded, 14 newly installed, 0 to remove and 0 not upgraded.
+Need to get 16.0 MB of archives.
+After this operation, 63.6 MB of additional disk space will be used.
+Get:1 http://security.debian.org/debian-security stretch/updates/main amd64 libssl1.0.2 amd64 1.0.2u-1~deb9u4 [1306 kB]
+Get:2 http://deb.debian.org/debian stretch/main amd64 sgml-base all 1.29 [14.8 kB]
+Get:3 http://security.debian.org/debian-security stretch/updates/main amd64 libxml2 amd64 2.9.4+dfsg1-2.2+deb9u3 [920 kB]
+Get:4 http://deb.debian.org/debian stretch/main amd64 libwrap0 amd64 7.6.q-26 [58.2 kB]
+Get:5 http://deb.debian.org/debian stretch/main amd64 libicu57 amd64 57.1-6+deb9u4 [7699 kB]
+Get:6 http://security.debian.org/debian-security stretch/updates/main amd64 libjpeg62-turbo amd64 1:1.5.1-2+deb9u1 [134 kB]
+Get:7 http://deb.debian.org/debian stretch/main amd64 libcharls1 amd64 1.1.0+dfsg-2 [56.0 kB]
+Get:8 http://deb.debian.org/debian stretch/main amd64 libpng16-16 amd64 1.6.28-1+deb9u1 [280 kB]
+Get:9 http://deb.debian.org/debian stretch/main amd64 libjbig0 amd64 2.1-3.1+b2 [31.0 kB]
+Get:10 http://deb.debian.org/debian stretch/main amd64 libtiff5 amd64 4.0.8-2+deb9u5 [239 kB]
+Get:11 http://deb.debian.org/debian stretch/main amd64 libdcmtk8 amd64 3.6.1~20160216-4 [4319 kB]
+Get:12 http://deb.debian.org/debian stretch/main amd64 dcmtk amd64 3.6.1~20160216-4 [918 kB]
+Get:13 http://deb.debian.org/debian stretch/main amd64 tcpd amd64 7.6.q-26 [23.3 kB]
+Get:14 http://deb.debian.org/debian stretch/main amd64 xml-core all 0.17 [23.2 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 16.0 MB in 17s (924 kB/s)
+Selecting previously unselected package sgml-base.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6503 files and directories currently installed.)
+Preparing to unpack .../00-sgml-base_1.29_all.deb ...
+Unpacking sgml-base (1.29) ...
+Selecting previously unselected package libssl1.0.2:amd64.
+Preparing to unpack .../01-libssl1.0.2_1.0.2u-1~deb9u4_amd64.deb ...
+Unpacking libssl1.0.2:amd64 (1.0.2u-1~deb9u4) ...
+Selecting previously unselected package libwrap0:amd64.
+Preparing to unpack .../02-libwrap0_7.6.q-26_amd64.deb ...
+Unpacking libwrap0:amd64 (7.6.q-26) ...
+Selecting previously unselected package libicu57:amd64.
+Preparing to unpack .../03-libicu57_57.1-6+deb9u4_amd64.deb ...
+Unpacking libicu57:amd64 (57.1-6+deb9u4) ...
+Selecting previously unselected package libxml2:amd64.
+Preparing to unpack .../04-libxml2_2.9.4+dfsg1-2.2+deb9u3_amd64.deb ...
+Unpacking libxml2:amd64 (2.9.4+dfsg1-2.2+deb9u3) ...
+Selecting previously unselected package libcharls1:amd64.
+Preparing to unpack .../05-libcharls1_1.1.0+dfsg-2_amd64.deb ...
+Unpacking libcharls1:amd64 (1.1.0+dfsg-2) ...
+Selecting previously unselected package libpng16-16:amd64.
+Preparing to unpack .../06-libpng16-16_1.6.28-1+deb9u1_amd64.deb ...
+Unpacking libpng16-16:amd64 (1.6.28-1+deb9u1) ...
+Selecting previously unselected package libjbig0:amd64.
+Preparing to unpack .../07-libjbig0_2.1-3.1+b2_amd64.deb ...
+Unpacking libjbig0:amd64 (2.1-3.1+b2) ...
+Selecting previously unselected package libjpeg62-turbo:amd64.
+Preparing to unpack .../08-libjpeg62-turbo_1%3a1.5.1-2+deb9u1_amd64.deb ...
+Unpacking libjpeg62-turbo:amd64 (1:1.5.1-2+deb9u1) ...
+Selecting previously unselected package libtiff5:amd64.
+Preparing to unpack .../09-libtiff5_4.0.8-2+deb9u5_amd64.deb ...
+Unpacking libtiff5:amd64 (4.0.8-2+deb9u5) ...
+Selecting previously unselected package libdcmtk8.
+Preparing to unpack .../10-libdcmtk8_3.6.1~20160216-4_amd64.deb ...
+Unpacking libdcmtk8 (3.6.1~20160216-4) ...
+Selecting previously unselected package dcmtk.
+Preparing to unpack .../11-dcmtk_3.6.1~20160216-4_amd64.deb ...
+Unpacking dcmtk (3.6.1~20160216-4) ...
+Selecting previously unselected package tcpd.
+Preparing to unpack .../12-tcpd_7.6.q-26_amd64.deb ...
+Unpacking tcpd (7.6.q-26) ...
+Selecting previously unselected package xml-core.
+Preparing to unpack .../13-xml-core_0.17_all.deb ...
+Unpacking xml-core (0.17) ...
+Setting up libjpeg62-turbo:amd64 (1:1.5.1-2+deb9u1) ...
+Setting up libpng16-16:amd64 (1.6.28-1+deb9u1) ...
+Setting up libjbig0:amd64 (2.1-3.1+b2) ...
+Setting up libcharls1:amd64 (1.1.0+dfsg-2) ...
+Setting up libtiff5:amd64 (4.0.8-2+deb9u5) ...
+Setting up sgml-base (1.29) ...
+Setting up libicu57:amd64 (57.1-6+deb9u4) ...
+Setting up libxml2:amd64 (2.9.4+dfsg1-2.2+deb9u3) ...
+Setting up libssl1.0.2:amd64 (1.0.2u-1~deb9u4) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Processing triggers for libc-bin (2.24-11+deb9u4) ...
+Setting up xml-core (0.17) ...
+Setting up libwrap0:amd64 (7.6.q-26) ...
+Setting up tcpd (7.6.q-26) ...
+Setting up libdcmtk8 (3.6.1~20160216-4) ...
+Setting up dcmtk (3.6.1~20160216-4) ...
+Adding `dcmtk' group to system ...
+Adding `dcmtk' user to system ...
+adduser: Warning: The home directory `/var/lib/dcmtk/db' does not belong to the user you are currently creating.
+Processing triggers for sgml-base (1.29) ...
+Processing triggers for libc-bin (2.24-11+deb9u4) ...
+D: $dcmtk: storescp v3.6.1 2016-02-16 $
+D: 
+D: DcmDataDictionary: Loading file: /usr/share/libdcmtk8/dicom.dic
+T: Receiving data via select()
+D: setting network send timeout to 60 seconds
+D: setting network receive timeout to 60 seconds
+T: DUL  FSM Table: State: 1 Event: 4
+T: DUL  Event:  Transport connection indication
+T: DUL  Action: AE 5 Transport Connect Response
+T: Receiving data via select()
+T: Read PDU HEAD TCP: 01 00 00 00 00 cd
+T: Read PDU HEAD TCP: type: 01, length: 205 (cd)
+T: DUL  FSM Table: State: 2 Event: 5
+T: DUL  Event:  A-ASSOCIATE-RQ PDU (on transport)
+T: DUL  Action: AE 6 Examine Associate Request
+D: PDU Type: Associate Request, PDU Length: 205 + 6 bytes PDU header
+D:   01  00  00  00  00  cd  00  01  00  00  41  4e  59  2d  53  43
+D:   50  20  20  20  20  20  20  20  20  20  45  43  48  4f  53  43
+D:   55  20  20  20  20  20  20  20  20  20  00  00  00  00  00  00
+D:   00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00
+D:   00  00  00  00  00  00  00  00  00  00  10  00  00  15  31  2e
+D:   32  2e  38  34  30  2e  31  30  30  30  38  2e  33  2e  31  2e
+D:   31  2e  31  20  00  00  2e  01  00  ff  00  30  00  00  11  31
+D:   2e  32  2e  38  34  30  2e  31  30  30  30  38  2e  31  2e  31
+D:   40  00  00  11  31  2e  32  2e  38  34  30  2e  31  30  30  30
+D:   38  2e  31  2e  32  50  00  00  3a  51  00  00  04  00  00  40
+D:   00  52  00  00  1b  31  2e  32  2e  32  37  36  2e  30  2e  37
+D:   32  33  30  30  31  30  2e  33  2e  30  2e  33  2e  36  2e  31
+D:   55  00  00  0f  4f  46  46  49  53  5f  44  43  4d  54  4b  5f
+D:   33  36  31
+D: Parsing an A-ASSOCIATE PDU
+T: PDU type: 1 (A-ASSOCIATE RQ), PDU Length: 205
+T: DICOM Protocol: 1
+T: Called AP Title:  ANY-SCP
+T: Calling AP Title: ECHOSCU
+T: Parsing remaining 137 bytes of A-ASSOCIATE PDU
+T: Next item type: 10
+T: Subitem parse: Type 10, Length 0021, Content: 1.2.840.10008.3.1.1.1
+T: Successfully parsed Application Context
+T: Parsing remaining 112 bytes of A-ASSOCIATE PDU
+T: Next item type: 20
+T: Parsing Presentation Context: (20), Length: 46
+T: Presentation Context ID: 01
+T: Parsing remaining 42 bytes of Presentation Context
+T: Next item type: 30
+T: Subitem parse: Type 30, Length 0017, Content: 1.2.840.10008.1.1
+T: Successfully parsed Abstract Syntax
+T: Parsing remaining 21 bytes of Presentation Context
+T: Next item type: 40
+T: Subitem parse: Type 40, Length 0017, Content: 1.2.840.10008.1.2
+T: Successfully parsed Transfer Syntax
+T: Successfully parsed Presentation Context
+T: Parsing remaining 62 bytes of A-ASSOCIATE PDU
+T: Next item type: 50
+T: Parsing user info field (50), Length: 58
+T: Parsing remaining 58 bytes of User Information
+T: Next item type: 51
+T: Maximum PDU Length: 16384
+T: Successfully parsed Maximum PDU Length
+T: Parsing remaining 50 bytes of User Information
+T: Next item type: 52
+T: Subitem parse: Type 52, Length 0027, Content: 1.2.276.0.7230010.3.0.3.6.1
+T: Parsing remaining 19 bytes of User Information
+T: Next item type: 55
+T: Subitem parse: Type 55, Length 0015, Content: OFFIS_DCMTK_361
+T: Successfully parsed User Information
+I: Association Received
+D: Parameters:
+D: ====================== BEGIN A-ASSOCIATE-RQ =====================
+D: Our Implementation Class UID:      1.2.276.0.7230010.3.0.3.6.1
+D: Our Implementation Version Name:   OFFIS_DCMTK_361
+D: Their Implementation Class UID:    1.2.276.0.7230010.3.0.3.6.1
+D: Their Implementation Version Name: OFFIS_DCMTK_361
+D: Application Context Name:    1.2.840.10008.3.1.1.1
+D: Calling Application Name:    ECHOSCU
+D: Called Application Name:     ANY-SCP
+D: Responding Application Name: 
+D: Our Max PDU Receive Size:    16384
+D: Their Max PDU Receive Size:  16384
+D: Presentation Contexts:
+D:   Context ID:        1 (Proposed)
+D:     Abstract Syntax: =VerificationSOPClass
+D:     Proposed SCP/SCU Role: Default
+D:     Proposed Transfer Syntax(es):
+D:       =LittleEndianImplicit
+D: Requested Extended Negotiation: none
+D: Accepted Extended Negotiation:  none
+D: Requested User Identity Negotiation: none
+D: User Identity Negotiation Response:  none
+D: ======================= END A-ASSOCIATE-RQ ======================
+T: DUL  FSM Table: State: 3 Event: 6
+T: DUL  Event:  A-ASSOCIATE resp prim (accept)
+T: DUL  Action: AE 7 Send Associate AC
+D: Constructing Associate AC PDU
+I: Association Acknowledged (Max Send PDV: 16372)
+D: ====================== BEGIN A-ASSOCIATE-AC =====================
+D: Our Implementation Class UID:      1.2.276.0.7230010.3.0.3.6.1
+D: Our Implementation Version Name:   OFFIS_DCMTK_361
+D: Their Implementation Class UID:    1.2.276.0.7230010.3.0.3.6.1
+D: Their Implementation Version Name: OFFIS_DCMTK_361
+D: Application Context Name:    1.2.840.10008.3.1.1.1
+D: Calling Application Name:    ECHOSCU
+D: Called Application Name:     ANY-SCP
+D: Responding Application Name: STORESCP
+D: Our Max PDU Receive Size:    16384
+D: Their Max PDU Receive Size:  16384
+D: Presentation Contexts:
+D:   Context ID:        1 (Accepted)
+D:     Abstract Syntax: =VerificationSOPClass
+D:     Proposed SCP/SCU Role: Default
+D:     Accepted SCP/SCU Role: Default
+D:     Accepted Transfer Syntax: =LittleEndianImplicit
+D: Requested Extended Negotiation: none
+D: Accepted Extended Negotiation:  none
+D: Requested User Identity Negotiation: none
+D: User Identity Negotiation Response:  none
+D: ======================= END A-ASSOCIATE-AC ======================
+T: DIMSE receiveCommand
+T: Read PDU HEAD TCP: 04 00 00 00 00 4a
+T: Read PDU HEAD TCP: type: 04, length: 74 (4a)
+T: DUL  FSM Table: State: 6 Event: 9
+T: DUL  Event:  P-DATA-TF PDU (on transport)
+T: DUL  Action: DT 2 Indicate P DATA PDU Received
+D: DcmDataset::read() TransferSyntax="Little Endian Implicit"
+T: DcmItem::insert() Element (0000,0000) VR="UL" inserted at beginning
+T: DcmItem::readSubItem() returns error = Normal
+W: DcmItem: Invalid Element (0000,0000) found in data set
+T: DcmItem::insert() Element (0000,0002) VR="UI" inserted
+T: DcmItem::readSubItem() returns error = Normal
+W: DcmItem: Invalid Element (0000,0002) found in data set
+T: DcmItem::insert() Element (0000,0100) VR="US" inserted
+T: DcmItem::readSubItem() returns error = Normal
+W: DcmItem: Invalid Element (0000,0100) found in data set
+T: DcmItem::insert() Element (0000,0110) VR="US" inserted
+T: DcmItem::readSubItem() returns error = Normal
+W: DcmItem: Invalid Element (0000,0110) found in data set
+T: DcmItem::insert() Element (0000,0800) VR="US" inserted
+T: DcmItem::readSubItem() returns error = Normal
+W: DcmItem: Invalid Element (0000,0800) found in data set
+T: DcmItem::read() returns error = Normal
+T: DcmDataset::read() returns error = Normal
+T: DIMSE receiveCommand: 1 PDVs (68 bytes), PresID=1
+T: DIMSE Command Received:
+T: 
+T: # Dicom-Data-Set
+T: # Used TransferSyntax: Little Endian Implicit
+T: (0000,0002) UI =VerificationSOPClass                    #  18, 1 AffectedSOPClassUID
+T: (0000,0100) US 48                                       #   2, 1 CommandField
+T: (0000,0110) US 1                                        #   2, 1 MessageID
+T: (0000,0800) US 257                                      #   2, 1 CommandDataSetType
+T: 
+T: DcmItem::searchSubFromHere() Element (0000,0100) found
+T: DcmItem::searchSubFromHere() Element (0000,0100) found
+T: DcmItem::searchSubFromHere() Element (0000,0110) found
+T: DcmItem::searchSubFromHere() Element (0000,0800) found
+T: DcmItem::searchSubFromHere() Element (0000,0002) found
+I: Received Echo Request
+D: ===================== INCOMING DIMSE MESSAGE ====================
+D: Message Type                  : C-ECHO RQ
+D: Presentation Context ID       : 1
+D: Message ID                    : 1
+D: Data Set                      : none
+D: ======================= END DIMSE MESSAGE =======================
+T: DcmItem::insert() Element (0000,0000) VR="UL" inserted at beginning
+T: DcmItem::insert() Element (0000,0100) VR="US" inserted
+T: DcmItem::insert() Element (0000,0120) VR="US" inserted
+T: DcmItem::insert() Element (0000,0800) VR="US" inserted
+T: DcmItem::insert() Element (0000,0900) VR="US" inserted
+T: DcmItem::insert() Element (0000,0002) VR="UI" inserted
+T: DIMSE Command to be sent on Presentation Context ID: 1
+T: DIMSE Command to send:
+T: 
+T: # Dicom-Data-Set
+T: # Used TransferSyntax: Little Endian Explicit
+T: (0000,0000) UL 0                                        #   4, 1 CommandGroupLength
+T: (0000,0002) UI =VerificationSOPClass                    #  18, 1 AffectedSOPClassUID
+T: (0000,0100) US 32816                                    #   2, 1 CommandField
+T: (0000,0120) US 1                                        #   2, 1 MessageIDBeingRespondedTo
+T: (0000,0800) US 257                                      #   2, 1 CommandDataSetType
+T: (0000,0900) US 0                                        #   2, 1 Status
+T: 
+T: DIMSE sendDcmDataset: sending 78 bytes
+T: DUL  FSM Table: State: 6 Event: 8
+T: DUL  Event:  P-DATA request primitive
+T: DUL  Action: DT 1 Send P DATA PDU
+T: DIMSE receiveCommand
+W: DcmItem: Invalid Element (0000,0000) found in data set
+W: DcmItem: Invalid Element (0000,0002) found in data set
+W: DcmItem: Invalid Element (0000,0100) found in data set
+W: DcmItem: Invalid Element (0000,0120) found in data set
+W: DcmItem: Invalid Element (0000,0800) found in data set
+W: DcmItem: Invalid Element (0000,0900) found in data set
+T: Read PDU HEAD TCP: 05 00 00 00 00 04
+T: Read PDU HEAD TCP: type: 05, length: 4 (04)
+T: DUL  FSM Table: State: 6 Event: 11
+T: DUL  Event:  A-RELEASE-RQ PDU (on transport)
+T: DUL  Action: AR 2 Indicate Release
+I: Association Release
+T: DUL  FSM Table: State: 8 Event: 13
+T: DUL  Event:  A-RELEASE response primitive
+T: DUL  Action: AR 4 Send Release RP
+T: Receiving data via select()
